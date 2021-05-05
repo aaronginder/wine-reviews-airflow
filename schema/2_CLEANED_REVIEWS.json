@@ -1,0 +1,74 @@
+[
+    {
+        "mode": "NULLABLE",
+        "name": "country",
+        "type": "STRING",
+        "description": "Country the wine originates from"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "region",
+        "type": "STRING",
+        "description": "The geographic region the wine originates from"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "sub_region",
+        "type": "STRING",
+        "description": "The geographic sub-region the wine originates from"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "province",
+        "type": "STRING",
+        "description": "The province geographic area the wine originates from"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "variety",
+        "type": "STRING",
+        "description": "The group the winery falls within the market"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "winery",
+        "type": "STRING",
+        "description": "Name of the wine being reviewed"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "designation",
+        "type": "STRING",
+        "description": "N/A"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "description",
+        "type": "STRING",
+        "description": "User fre-text field to enter their review opinions"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "points",
+        "type": "INTEGER",
+        "description": "Rating given by the reviewee out of 100"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "price",
+        "type": "FLOAT",
+        "description": "Price of the product given in Dollars"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "ingestion_date",
+        "type": "DATE",
+        "description": "Date the report was ingested"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "ingestion_time",
+        "type": "TIMESTAMP",
+        "description": "Timestamp the report was ingested"
+    }
+]

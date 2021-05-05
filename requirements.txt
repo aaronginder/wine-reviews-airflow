@@ -1,0 +1,4 @@
+apache-airflow==1.10.15
+apache-airflow[async, postgres, google]==1.10.15 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-1.10.15/constraints-3.8.txt"
+black==21.4b2
+mypy==0.812

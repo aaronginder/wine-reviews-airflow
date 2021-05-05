@@ -1,0 +1,86 @@
+[
+    {
+        "mode": "NULLABLE",
+        "name": "country",
+        "type": "STRING",
+        "description": "Country the wine originates from"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "province",
+        "type": "STRING",
+        "description": "The province geographic area the wine originates from"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "variety",
+        "type": "STRING",
+        "description": "The group the winery falls within the market"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_province_variety_points",
+        "type": "FLOAT",
+        "description": "Average number of points of all wines in each variety group and province"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_country_points",
+        "type": "FLOAT",
+        "description": "Average number of review points for all wines reviewed across a country"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_variety_points",
+        "type": "FLOAT",
+        "description": "Average number of review points across each variety group"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_winery_by_country_points",
+        "type": "FLOAT",
+        "description": "Average number of review points for each wine in a country"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_wine_points",
+        "type": "FLOAT",
+        "description": "Average number of wine review points globally"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_variety_price_by_country",
+        "type": "FLOAT",
+        "description": "Average price of each variety group in a country"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "avg_wine_price_by_country",
+        "type": "FLOAT",
+        "description": "Average price of a wine in a country"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "num_reviews",
+        "type": "INTEGER",
+        "description": "Count of the number of reviews in the dataset"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "num_reviews_in_variety_group_by_country",
+        "type": "INTEGER",
+        "description": "Count of the reviews in each variety group and country"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "ingestion_date",
+        "type": "DATE",
+        "description": "Date the report was ingested"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "ingestion_time",
+        "type": "TIMESTAMP",
+        "description": "Timestamp the report was ingested"
+    }
+]

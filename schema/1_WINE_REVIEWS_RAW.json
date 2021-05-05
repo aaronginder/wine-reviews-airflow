@@ -1,0 +1,68 @@
+[
+    {
+        "name": "row_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Row number in raw data source"
+    },
+    {
+        "name": "country",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The country the wine originates from"
+    },
+    {
+        "name": "description",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "User fre-text field to enter their review opinions"
+    },
+    {
+        "name": "designation",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "N/A"
+    },
+    {
+        "name": "points",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Rating given by the reviewee out of 100"
+    },
+    {
+        "name": "price",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Price of the product given in Dollars"
+    },
+    {
+        "name": "province",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The province geographic region of the winery"
+    },
+    {
+        "name": "region_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The high level region of the wine"
+    },
+    {
+        "name": "region_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The sub-region level of the wine"
+    },
+    {
+        "name": "variety",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The group the winery falls within the market"
+    },
+    {
+        "name": "winery",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name of the wine being reviewed"
+    }
+]

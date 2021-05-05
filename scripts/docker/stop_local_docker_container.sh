@@ -1,0 +1,3 @@
+docker-compose down
+
+echo Docker containers shut down ...
